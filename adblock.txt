@@ -90,3 +90,34 @@
 ||dit.whatsapp.net^
 ||graph.facebook.com^
 ||adservice.google.com^
+!
+! ---- Microsoft telemetry ----
+||default.exp-tas.com^
+||mobile.events.data.microsoft.com^
+||umwatson.events.data.microsoft.com^
+||v20.events.data.microsoft.com^
+||vortex.data.microsoft.com^
+||v10.events.data.microsoft.com^
+||dc.services.visualstudio.com^
+||copilot-telemetry.githubusercontent.com^
+!
+! ---- Xbox Live ----
+||xboxlive.com^
+||device.auth.xboxlive.com^
+||lfghub-anonymous.xboxlive.com^
+||profile.xboxlive.com^
+!
+! ---- Zoom telemetry ----
+||us04logfiles.zoom.us^
+!
+! ---- Kakao / Daum analytics ----
+||play.kakao.com^
+||stat.tiara.kakao.com^
+||t1.daumcdn.net^
+!
+! ---- Edge CDN (edge4k.com) ----
+||p1-play.edge4k.com^
+||p2-play.edge4k.com^
+!
+! ---- KG SLB ----
+||t1-wg2vgaja.kgslb.com^
