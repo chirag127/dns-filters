@@ -1,0 +1,36 @@
+# chirag127 DNS Filters — hosts format
+# Description: Personal DNS blocklist — paywall scrapers, tracker SDKs, and ad loaders
+# Homepage: https://github.com/chirag127/dns-filters
+# License: CC0-1.0
+# Expires: 1 day
+# Last modified: 2026-07-07
+#
+# Format: hosts file (0.0.0.0 <domain>)
+# Compatible with: /etc/hosts, Pi-hole, AdGuard Home, StevenBlack aggregator
+
+# ---- Paywall engines ----
+0.0.0.0 blueconic.net
+0.0.0.0 cdn.registerdisney.go.com
+0.0.0.0 cnv-medien.de
+0.0.0.0 cxense.com
+0.0.0.0 ev.lavanguardia.com
+0.0.0.0 ev.mundodeportivo.com
+0.0.0.0 evolok.net
+0.0.0.0 flowerstreatment.com
+0.0.0.0 guidecent.com
+0.0.0.0 hadrianpaywall.com
+0.0.0.0 htlbid.com
+0.0.0.0 jerseyeveningpost.com
+0.0.0.0 js.matheranalytics.com
+0.0.0.0 js.pelcro.com
+0.0.0.0 lapost.com
+0.0.0.0 loader.newsday.com
+0.0.0.0 lrb.co.uk
+0.0.0.0 moscout.com
+0.0.0.0 olytics.omeda.com
+0.0.0.0 onecount.net
+0.0.0.0 paywall.correiodopovo.com.br
+0.0.0.0 paywall.folha.uol.com.br
+
+# ---- Ad / tracker SDKs ----
+0.0.0.0 adconfig.wynk.in

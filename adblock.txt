@@ -1,0 +1,36 @@
+! Title: chirag127 DNS Filters
+! Description: Personal DNS blocklist — paywall scrapers, tracker SDKs, and ad loaders
+! Homepage: https://github.com/chirag127/dns-filters
+! License: CC0-1.0
+! Expires: 1 day
+! Last modified: 2026-07-07
+!
+! Format: Adblock Plus / uBlock Origin / AdGuard syntax
+! Compatible with: AdGuard Home, AdGuard DNS (custom rules), NextDNS (custom), Pi-hole (regex), uBlock Origin
+!
+! ---- Paywall engines ----
+||blueconic.net^
+||cdn.registerdisney.go.com^
+||cnv-medien.de^
+||cxense.com^
+||ev.lavanguardia.com^
+||ev.mundodeportivo.com^
+||evolok.net^
+||flowerstreatment.com^
+||guidecent.com^
+||hadrianpaywall.com^
+||htlbid.com^
+||jerseyeveningpost.com^
+||js.matheranalytics.com^
+||js.pelcro.com^
+||lapost.com^
+||loader.newsday.com^
+||lrb.co.uk^
+||moscout.com^
+||olytics.omeda.com^
+||onecount.net^
+||paywall.correiodopovo.com.br^
+||paywall.folha.uol.com.br^
+!
+! ---- Ad / tracker SDKs ----
+||adconfig.wynk.in^
