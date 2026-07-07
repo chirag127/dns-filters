@@ -3,7 +3,7 @@
 ! Homepage: https://github.com/chirag127/dns-filters
 ! License: CC0-1.0
 ! Expires: 1 day
-! Last modified: 2026-07-07
+! Last modified: 2026-07-08
 !
 ! Format: Adblock Plus / uBlock Origin / AdGuard syntax
 ! Compatible with: AdGuard Home, AdGuard DNS (custom rules), NextDNS (custom), Pi-hole (regex), uBlock Origin
@@ -34,3 +34,11 @@
 !
 ! ---- Ad / tracker SDKs ----
 ||adconfig.wynk.in^
+||poool.fr^
+||qiota.com^
+||rdhmag.com^
+||sophi.io^
+||steadyhq.com^
+||theintercept.com^
+||thetablet.org^
+||zonda.clarin.com^

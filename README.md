@@ -58,6 +58,14 @@ Dashboard → Filter lists → Import → paste the `adblock.txt` raw URL.
 | `*.onecount.net` | OneCount paywall engine |
 | `*.paywall.correiodopovo.com.br` | Paywall (Correio do Povo) |
 | `*.paywall.folha.uol.com.br` | Paywall (Folha de S.Paulo) |
+| `*.poool.fr` | Poool paywall engine (French press) |
+| `*.qiota.com` | Qiota paywall SDK |
+| `*.rdhmag.com` | Paywall (RDH magazine) |
+| `*.sophi.io` | Sophi.io paywall engine (Globe and Mail) |
+| `*.steadyhq.com` | Steady subscription paywall |
+| `*.theintercept.com` | Paywall (The Intercept) |
+| `*.thetablet.org` | Paywall (The Tablet) |
+| `*.zonda.clarin.com` | Paywall (Clarín) |
 | `*.adconfig.wynk.in` | Ad config SDK (Wynk) |
 
 ## License

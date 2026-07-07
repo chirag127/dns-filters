@@ -3,7 +3,7 @@
 # Homepage: https://github.com/chirag127/dns-filters
 # License: CC0-1.0
 # Expires: 1 day
-# Last modified: 2026-07-07
+# Last modified: 2026-07-08
 #
 # Format: hosts file (0.0.0.0 <domain>)
 # Compatible with: /etc/hosts, Pi-hole, AdGuard Home, StevenBlack aggregator
@@ -34,3 +34,11 @@
 
 # ---- Ad / tracker SDKs ----
 0.0.0.0 adconfig.wynk.in
+0.0.0.0 poool.fr
+0.0.0.0 qiota.com
+0.0.0.0 rdhmag.com
+0.0.0.0 sophi.io
+0.0.0.0 steadyhq.com
+0.0.0.0 theintercept.com
+0.0.0.0 thetablet.org
+0.0.0.0 zonda.clarin.com

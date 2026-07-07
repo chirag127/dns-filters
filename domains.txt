@@ -3,7 +3,7 @@
 # Homepage: https://github.com/chirag127/dns-filters
 # License: CC0-1.0
 # Expires: 1 day
-# Last modified: 2026-07-07
+# Last modified: 2026-07-08
 #
 # Format: one bare domain per line (wildcard implied for all subdomains)
 # Compatible with: NextDNS (custom blocklist URL), most DNS resolvers
@@ -34,3 +34,11 @@ paywall.folha.uol.com.br
 
 # ---- Ad / tracker SDKs ----
 adconfig.wynk.in
+poool.fr
+qiota.com
+rdhmag.com
+sophi.io
+steadyhq.com
+theintercept.com
+thetablet.org
+zonda.clarin.com
