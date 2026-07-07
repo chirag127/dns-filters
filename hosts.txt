@@ -42,3 +42,50 @@
 0.0.0.0 theintercept.com
 0.0.0.0 thetablet.org
 0.0.0.0 zonda.clarin.com
+
+# ---- Mobile analytics / crash reporters ----
+0.0.0.0 push.snaptube.app
+0.0.0.0 aios.soinluck.com
+0.0.0.0 analytics-tcp.mintegral.net
+0.0.0.0 returnyoutubedislikeapi.com
+0.0.0.0 a.nel.cloudflare.com
+0.0.0.0 billingapi.lecturenotes.in
+0.0.0.0 crashlyticsreports-pa.googleapis.com
+0.0.0.0 evt.splayerapp.com
+0.0.0.0 rayjump.com
+0.0.0.0 mxaserver.mxplay.com
+0.0.0.0 adconfig.splayerapp.com
+0.0.0.0 ad-snaptube.app
+0.0.0.0 sensors.snaptube.app
+0.0.0.0 batchlogging4-noneu.truecaller.com
+0.0.0.0 survey-noneu.truecaller.com
+0.0.0.0 matomo.darken.eu
+0.0.0.0 sentry.io
+0.0.0.0 omtrdc.net
+0.0.0.0 log1.happymod.com
+0.0.0.0 in.appcenter.ms
+0.0.0.0 ssl.google-analytics.com
+0.0.0.0 pay.hungama.com
+0.0.0.0 bugly.qcloud.com
+0.0.0.0 google-analytics.com
+0.0.0.0 scorecardresearch.com
+0.0.0.0 app-measurement.com
+0.0.0.0 tcpay.in
+0.0.0.0 opentelemetry.io
+0.0.0.0 display.io
+0.0.0.0 intercom.io
+0.0.0.0 sentry-cdn.com
+0.0.0.0 intercom.com
+0.0.0.0 crashlytics.com
+
+# ---- Social / consent / tracking ----
+0.0.0.0 cookielaw.org
+0.0.0.0 location.services.mozilla.com
+0.0.0.0 patreon.com
+0.0.0.0 connect.facebook.net
+0.0.0.0 mqtt-mini.facebook.com
+0.0.0.0 webcache.googleusercontent.com
+0.0.0.0 web.facebook.com
+0.0.0.0 dit.whatsapp.net
+0.0.0.0 graph.facebook.com
+0.0.0.0 adservice.google.com
