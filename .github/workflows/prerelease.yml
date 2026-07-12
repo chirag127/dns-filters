@@ -1,0 +1,42 @@
+name: prerelease
+
+on:
+  push:
+    branches: [main]
+    paths: ["*.txt"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  prerelease:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Compute tag + domain count
+        id: meta
+        run: |
+          set -euo pipefail
+          n=$(grep -cvE '^(#|$)' domains.txt)
+          echo "tag=snapshot-$(date -u +%Y.%m.%d-%H%M)" >> "$GITHUB_OUTPUT"
+          echo "count=$n" >> "$GITHUB_OUTPUT"
+
+      - name: Publish prerelease with the three lists attached
+        uses: softprops/action-gh-release@v3
+        with:
+          tag_name: ${{ steps.meta.outputs.tag }}
+          name: "Blocklist snapshot ${{ steps.meta.outputs.tag }}"
+          body: |
+            Automated snapshot of the DNS blocklist — ${{ steps.meta.outputs.count }} domains, three formats attached.
+
+            Subscribe from the raw files on `main`, or pin this snapshot:
+            - `adblock.txt` — AdGuard / uBlock / Pi-hole
+            - `domains.txt` — NextDNS / plain resolvers
+            - `hosts.txt` — /etc/hosts / Pi-hole / StevenBlack
+          prerelease: true
+          files: |
+            adblock.txt
+            domains.txt
+            hosts.txt

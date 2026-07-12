@@ -62,7 +62,6 @@
 ||matomo.darken.eu^
 ||sentry.io^
 ||omtrdc.net^
-||adconfig.wynk.in^
 ||log1.happymod.com^
 ||in.appcenter.ms^
 ||ssl.google-analytics.com^
