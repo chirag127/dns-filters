@@ -78,4 +78,4 @@ Dashboard → Filter lists → Import → paste the `adblock.txt` raw URL.
 
 ## License
 
-CC0-1.0 — public domain. No attribution required.
+MIT — see [LICENSE](./LICENSE).
